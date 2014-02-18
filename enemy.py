@@ -74,7 +74,7 @@ class Enemy(pygame.sprite.Sprite):
 
     def drop_special_item(self):
         specialitem = None
-        if self.drop_item > 0:
+        if self.drop_item is not None:
             specialitem = SpecialItem(self.rect.topleft, self.drop_item)
         return specialitem
 

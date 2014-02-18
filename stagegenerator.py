@@ -57,7 +57,7 @@ class StageGenerator():
             for x in range(0, item_quantity):
                 items_bucket.append(item_type)
         while len(items_bucket) < total_enemies:
-            items_bucket.append(0)
+            items_bucket.append(None)
         random.shuffle(items_bucket)
 
         # Creando los sprites de los enemigos
