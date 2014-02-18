@@ -1,0 +1,29 @@
+PHP Invaders - Python man Vs Php Invaders
+Proxima subida:
+
+
+
+En pocas palabras:
+[5]. Configurar los 20 niveles (Datos)
+[9]. Comentarios
+
+
+Tareas pendientes:
+REFACTORIZACIONES ---------------------------------------
+--- Pasar a Python 3
+--- Version: ASPman Vs ProQuest
+
+--- enemigo kamikace
+--- Efectos especiales de sonido... musica?
+--- Control de records: nombre, comunicacion con restFUL en internet
+--- En pausa el jugador se pone a hacer algo
+EXTRAS --------------------------------------------------
+- Disparo con solo presionar tecla
+- Disparo doble con solo presionar tecla
+box2d
+
+
+play: 6,12 64x64
+about: 5, 86
+rules: 98, 10
+exit: 90, 86
