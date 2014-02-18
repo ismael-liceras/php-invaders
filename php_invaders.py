@@ -6,7 +6,7 @@ from gameengine import GameEngine
 from sys import argv
 
 if not pygame.font:
-    print "Warning, fonts disabled"
+    print('Warning, fonts disabled')
 
 
 def main():

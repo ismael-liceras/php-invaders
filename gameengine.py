@@ -139,7 +139,7 @@ class GameEngine():
     def handle_cheat_mode_events(self, event):
         if event.type == KEYDOWN and self.is_current_screen('playing'):
             if event.key == K_n:
-                print "Next Stage!"
+                print('Next Stage!')
                 for dead_enemy in self.sprites['enemies']:
                     dead_enemy.add(self.sprites['others'])
                     dead_enemy.remove(self.sprites['enemies'])
