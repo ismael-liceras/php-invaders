@@ -5,26 +5,73 @@ class GameConfig():
     # MAX 28 enemies = 4 rows
     # (type, num)
     enemies = [
-        [(1, 7), (4, 1)],
-        [(2, 7), (3, 1)],
+        [(1, 1)],
+        [(1, 2)],
+        [(1, 3)],
+        [(1, 4)],
+        [(1, 5)],
+
+        [(1, 5), (2, 1)],
+        [(1, 5), (2, 2)],
+        [(1, 5), (2, 3)],
+        [(1, 5), (2, 4)],
+        [(1, 5), (2, 5)],
+
+        [(1, 5), (2, 5), (3, 1)],
+        [(1, 5), (2, 5), (3, 2)],
+        [(1, 5), (2, 5), (3, 3)],
+        [(1, 5), (2, 5), (3, 4)],
+        [(1, 5), (2, 5), (3, 5)],
+
+        [(1, 5), (2, 5), (3, 5), (4, 1)],
+        [(1, 5), (2, 5), (3, 5), (4, 2)],
+        [(1, 5), (2, 5), (3, 5), (4, 3)],
+        [(1, 5), (2, 5), (3, 5), (4, 4)],
+        [(1, 5), (2, 5), (3, 5), (4, 5)],
+
     ]
 
     #num
     prisoners = [
-        1,
-        1,
+        0, 0, 0, 1, 1,
+        2, 2, 2, 2, 2,
+        3, 3, 3, 3, 4,
+        4, 4, 4, 4, 5,
     ]
 
     # (type, num)
     items = [
-        [('extra_life', 2), ('super_shoot', 2), ('invincible', 2)],
-        [('extra_life', 2), ('super_shoot', 2), ('invincible', 2)],
+        [('extra_life', 0), ('super_shoot', 1), ('invincible', 0)],
+        [('extra_life', 0), ('super_shoot', 0), ('invincible', 1)],
+        [('extra_life', 0), ('super_shoot', 1), ('invincible', 0)],
+        [('extra_life', 1), ('super_shoot', 0), ('invincible', 0)],
+        [('extra_life', 0), ('super_shoot', 0), ('invincible', 1)],
+
+        [('extra_life', 1), ('super_shoot', 0), ('invincible', 0)],
+        [('extra_life', 0), ('super_shoot', 1), ('invincible', 0)],
+        [('extra_life', 0), ('super_shoot', 1), ('invincible', 0)],
+        [('extra_life', 1), ('super_shoot', 0), ('invincible', 1)],
+        [('extra_life', 0), ('super_shoot', 0), ('invincible', 0)],
+
+        [('extra_life', 0), ('super_shoot', 0), ('invincible', 1)],
+        [('extra_life', 1), ('super_shoot', 1), ('invincible', 0)],
+        [('extra_life', 1), ('super_shoot', 0), ('invincible', 0)],
+        [('extra_life', 1), ('super_shoot', 1), ('invincible', 0)],
+        [('extra_life', 0), ('super_shoot', 0), ('invincible', 1)],
+
+        [('extra_life', 0), ('super_shoot', 1), ('invincible', 0)],
+        [('extra_life', 1), ('super_shoot', 1), ('invincible', 1)],
+        [('extra_life', 0), ('super_shoot', 1), ('invincible', 0)],
+        [('extra_life', 1), ('super_shoot', 2), ('invincible', 1)],
+        [('extra_life', 1), ('super_shoot', 2), ('invincible', 0)],
     ]
 
     # type, velocity
     move = [
-        2,
-        3,
+        2, 2, 2, 3, 3,
+        4, 4, 4, 5, 5,
+        6, 6, 6, 7, 7,
+        8, 8, 8, 9, 10,
     ]
 
     enemy_types = [
